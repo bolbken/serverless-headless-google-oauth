@@ -1,0 +1,36 @@
+{
+  "name": "serverless-headless-google-oauth",
+  "version": "0.1.0",
+  "description": "A Google API OAuth intended for use in serverless functions.  Chrome is headless on AWS but local for dev/debug.",
+  "main": "index.js",
+  "author": "Ben Kolb",
+  "license": "MIT",
+  "keywords": [
+    "serverless",
+    "headless",
+    "google",
+    "oauth",
+    "authentication",
+    "api"
+  ],
+  "dependencies": {
+    "@serverless-chrome/lambda": "^1.0.0-57.2",
+    "axios": "^0.21.0",
+    "googleapis": "^66.0.0",
+    "puppeteer-core": "^5.5.0",
+    "superagent": "^6.1.0"
+  },
+  "devDependencies": {
+    "chrome-launcher": "^0.13.4"
+  }
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bolbken/serverless-headless-google-oauth.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bolbken/serverless-headless-google-oauth/issues"
+  },
+  "homepage": "https://github.com/bolbken/serverless-headless-google-oauth#readme"
+
+
+}
